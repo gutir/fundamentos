@@ -14,7 +14,7 @@ app.set("views", __dirname + "/views");
 
 //Construccion
 app.get("/", (req, res) => {
-  res.render("index", {titulo : "Mi título dinámico"})
+  res.render("index", {titulo : "Mi super título dinámico"})
 })
 app.get("/servicios", (req, res) => {
   res.render("servicios", {tituloServicios : "Este es un mensaje dinámico de servicios."})
